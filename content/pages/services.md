@@ -16,7 +16,7 @@ for example) and I'm trying to spend more time with my family.
 
 It doesn't mean that I don't write at all, just the frequency is very low.
 
-# Hiring Information
+## Hiring Information
 
 I'm currently focused on the iOS & macOS development (8+ years of experience) and
 the Rust language (2 years of experience).
@@ -28,7 +28,7 @@ You'd like to ask anything? Interesting project to work on? Would like to hire
 me? [Get in touch](mailto:rvojta@me.com). Don't bother if you're a body shop
 agency.
 
-# Online Presence
+## Online Presence
 
 * [zrzka @ Stack Overflow](https://stackoverflow.com/users/581190/zrzka)
 * [zrzka @ GitHub](https://github.com/zrzka)
