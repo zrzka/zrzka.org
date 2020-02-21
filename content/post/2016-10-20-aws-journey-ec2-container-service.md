@@ -2,7 +2,7 @@
 title: AWS journey — EC2 Container Service
 date: 2016-10-20T11:28:46+01:00
 categories:
-  - articles
+  - all
 tags:
   - aws
   - ec2

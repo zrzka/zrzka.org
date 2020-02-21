@@ -2,7 +2,7 @@
 title: Python IDE on the iPad Pro
 date: 2017-10-20T00:00:47+01:00
 categories:
-  - articles
+  - all
 tags:
   - python
   - ipad

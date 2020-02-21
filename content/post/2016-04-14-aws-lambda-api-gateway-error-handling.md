@@ -2,7 +2,7 @@
 title: AWS Lambda & API Gateway Error Handling
 date: 2016-04-14T00:00:46+01:00
 categories:
-  - articles
+  - all
 tags:
   - aws
   - lambda

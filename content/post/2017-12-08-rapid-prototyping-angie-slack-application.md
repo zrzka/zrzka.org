@@ -1,9 +1,10 @@
 ---
 title: Rapid prototyping & Angie & Slack application
 date: 2017-12-08T10:58:51+01:00
-author: zrzka
-layout: post
-tags: [prototyping]
+categories:
+  - all
+tags:
+  - prototyping
 ---
 
 We're trying new ideas for our [startup](https://www.purposefly.com) and they need to be tested quickly.

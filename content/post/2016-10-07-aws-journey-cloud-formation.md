@@ -2,7 +2,7 @@
 title: AWS journey — Cloud Formation
 date: 2016-10-07T00:00:46+01:00
 categories:
-  - articles
+  - all
 tags:
   - aws
   - cloud-formation

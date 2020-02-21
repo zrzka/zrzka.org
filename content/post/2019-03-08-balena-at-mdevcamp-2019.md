@@ -2,7 +2,7 @@
 title: Balena @ mDevCamp 2019 
 date: 2019-03-08T11:00:00+01:00
 categories:
-  - articles
+  - all
 ---
 
 I'll have a talk about [balena](https://www.balena.io/what-is-balena) at [mDevCamp 2019](https://mdevcamp.eu/)
