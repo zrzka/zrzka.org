@@ -8,5 +8,5 @@ category = "categories"
 tag = "tags"
 
 [permalinks]
-post = "/:year/:month/:day/:title/"
+post = "/:title"
 pages = "/:title"
