@@ -17,5 +17,5 @@ jobs:
         with:
           githubToken: ${{ secrets.DEPLOY_TOKEN }}
           cname: www.zrzka.dev
-          brach: master
+          branch: master
           repo: zrzka/zrzka.github.io
