@@ -1,5 +1,5 @@
 ---
-title: Site
+title: Site Information
 url: /site
 ---
 
