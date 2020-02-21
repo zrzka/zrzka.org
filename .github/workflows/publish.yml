@@ -1,0 +1,23 @@
+name: Publish Site
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+        with:
+          submodules: true
+      - name: Publish
+        uses: chabad360/hugo-gh-pages@master
+        with:
+          githubToken: ${{ secrets.DEPLOY_TOKEN }}
+          cname: www.zrzka.dev
+          brach: master
+          repo: zrzka/zrzka.github.io
