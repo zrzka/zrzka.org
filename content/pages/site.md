@@ -5,7 +5,7 @@ url: /site
 
 
 [Hugo](https://gohugo.io/) based blog. Source code of this blog is hosted
-at [GitHub](https://github.com/zrzka/zrzka.github.io).
+at [GitHub](https://github.com/zrzka/zrzka.dev).
 
 ## Content
 
