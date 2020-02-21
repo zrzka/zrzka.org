@@ -1,0 +1,12 @@
+baseURL = "https://www.zrzka.dev/"
+languageCode = "en-us"
+title = "Robert Vojta (𝒵𝓇𝓏𝓀𝒶)"
+description = "foo"
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+[permalinks]
+post = "/:year/:month/:day/:title/"
+pages = "/:title"
