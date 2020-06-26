@@ -31,11 +31,11 @@ And this place is  the `+[DVTSourceControlBranch initialBranchName]` class metho
 
 The method name is pretty clear, but what it does? Is there a string value stored in user defaults (key `DVTSourceControlDefaultNewRepositoryBranchName`)? Yes - use it as an initial branch name. No - fallback to `main`.
 
-Let's test it. Set `foo` as a new initial branch name.
+Let's test it. Set `voldemort` as a new initial branch name.
 
 ```sh
 % defaults write com.apple.dt.Xcode.sourcecontrol.Git \
-    DVTSourceControlDefaultNewRepositoryBranchName foo
+    DVTSourceControlDefaultNewRepositoryBranchName voldemort
 ```
 
 Create a new Xcode project and keep the _Create Git repository on my Mac_ option enabled.
@@ -46,7 +46,7 @@ Does it work?
 
 ```sh
 % git status
-On branch foo
+On branch voldemort
 ```
 
 Yep! You can easily switch it back to `master` or any other branch name.
