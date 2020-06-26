@@ -31,7 +31,7 @@ And this place is  the `+[DVTSourceControlBranch initialBranchName]` class metho
 
 The method name is pretty clear, but what it does? Is there a string value stored in user defaults (key `DVTSourceControlDefaultNewRepositoryBranchName`)? Yes - use it as an initial branch name. No - fallback to `main`.
 
-Let's test it. Set `voldemort` as a new initial branch name.
+Git support is provided via the `com.apple.dt.Xcode.sourcecontrol.Git` XPC service (bundled in the framework). Let's try to set the `voldemort` value in this domain.
 
 ```sh
 % defaults write com.apple.dt.Xcode.sourcecontrol.Git \
