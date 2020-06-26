@@ -15,7 +15,8 @@ Xcode 12.0 beta (12A6159) switched initial git branch name: `master` to
 <!--more-->
 
 `DVTSourceControl.framework` is responsible for this. The framework is located
-in the `Xcode-beta.app` bundle (`Contents/SharedFrameworks`). Call [Hopper](https://www.hopperapp.com) for help :)
+in the `Xcode-beta.app` bundle (`Contents/SharedFrameworks`). Call
+[Hopper](https://www.hopperapp.com) for help :)
 
 Is there a `main` string anywhere?
 
@@ -29,9 +30,12 @@ And this place is  the `+[DVTSourceControlBranch initialBranchName]` class metho
 
 ![Disassembled framework](/images/xcode-12/initial-branch-name.png)
 
-The method name is pretty clear, but what it does? Is there a string value stored in user defaults (key `DVTSourceControlDefaultNewRepositoryBranchName`)? Yes - use it as an initial branch name. No - fallback to `main`.
+The method name is pretty clear, but what it does? Is there a string value stored in user defaults
+(key `DVTSourceControlDefaultNewRepositoryBranchName`)? Yes - use it as an initial branch name.
+No - fallback to `main`.
 
-Git support is provided via the `com.apple.dt.Xcode.sourcecontrol.Git` XPC service (bundled in the framework). Let's try to set the `voldemort` value in this domain.
+Git support is provided via the `com.apple.dt.Xcode.sourcecontrol.Git` XPC service (bundled in
+the framework). Let's try to set the `voldemort` value in this domain.
 
 ```sh
 % defaults write com.apple.dt.Xcode.sourcecontrol.Git \
