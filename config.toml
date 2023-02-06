@@ -13,3 +13,12 @@ pages = "/:title"
 
 [markup.goldmark.renderer]
 unsafe= true
+
+[minify]
+disableHTML = true
+
+[minify.tdewolff.html]
+keepQuotes = true
+keepComments = true
+keepEndTags = true
+keepWhitespace = true
