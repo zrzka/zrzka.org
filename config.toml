@@ -10,3 +10,6 @@ tag = "tags"
 [permalinks]
 post = "/:title"
 pages = "/:title"
+
+[markup.goldmark.renderer]
+unsafe= true
