@@ -28,6 +28,6 @@ me? [Get in touch](mailto:rvojta@me.com).
 
 ## Online presence
 
-* [zrzka @ Stack Overflow](https://stackoverflow.com/users/581190/zrzka)
-* [zrzka @ GitHub](https://github.com/zrzka)
-* <a rel="me" href="https://ruby.social/@zrzka">zrzka @ ruby.social (Mastodon)</a>
+* [Stack Overflow](https://stackoverflow.com/users/581190/zrzka)
+* [GitHub](https://github.com/zrzka)
+* <a rel="me" href="https://ruby.social/@zrzka">ruby.social</a>
