@@ -30,4 +30,4 @@ me? [Get in touch](mailto:rvojta@me.com).
 
 * [zrzka @ Stack Overflow](https://stackoverflow.com/users/581190/zrzka)
 * [zrzka @ GitHub](https://github.com/zrzka)
-* <a href="https://ruby.social/@zrzka" rel="me">zrzka @ ruby.social (Mastodon)</a>
+* <a rel="me" href="https://ruby.social/@zrzka">zrzka @ ruby.social (Mastodon)</a>
