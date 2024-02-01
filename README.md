@@ -1,6 +1,6 @@
 # About
 
-Source for the [www.zrzka.dev](https://www.zrzka.dev/).
+Source for the [www.zrzka.org](https://www.zrzka.org/).
 
 ## Content
 

@@ -16,6 +16,6 @@ jobs:
         uses: chabad360/hugo-gh-pages@master
         with:
           githubToken: ${{ secrets.DEPLOY_TOKEN }}
-          cname: www.zrzka.dev
+          cname: www.zrzka.org
           branch: master
           repo: zrzka/zrzka.github.io
